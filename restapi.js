@@ -28,6 +28,7 @@ app.use(bodyParser.urlencoded({
 //create database connection
 class Konfigurasi {
   dbConfig = {
+    port: 3306,
     host: "localhost",
     user: "root",
     password: "",
