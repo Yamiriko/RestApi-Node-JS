@@ -77,7 +77,7 @@ var hendelKoneksi = function () {
     console.log("DB Error : ", err);
     if (err.code === "PROTOCOL_CONNECTION_LOST") {
       if (platformOS === "linux") {
-        exec("/opt/lampp/xampp start");
+        exec("/opt/lampp/xampp restart");
       }
       hendelKoneksi();
     } else if (err.code === "ECONNRESET") {
