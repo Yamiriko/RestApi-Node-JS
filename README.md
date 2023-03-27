@@ -7,7 +7,7 @@
  <li><a target="_blank" href="https://nodejs.org/dist/v14.21.3/node-v14.21.3-x64.msi">Node JS versi 14.21.3</a></li>
  <li><a target="_blank" href="https://www.postman.com/downloads/">Postman</a></li>
  <li><a target="_blank" href="https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.3.33/xampp-windows-x64-7.3.33-0-VC15-installer.exe/download">XAMPP 7.3.33</a></li>
- <li><a target="_blank" href="https://desktop.github.com/" title="Sangat disarankan menggunakan Github Desktop ini.">Github Desktop Dwonload</a></li>
+ <li><a target="_blank" href="https://desktop.github.com/" title="Sangat disarankan menggunakan Github Desktop ini.">Github Desktop Download</a></li>
  </ol>
  <br>
  Cara jalankannya : <br>
