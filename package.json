@@ -4,7 +4,7 @@
   "description": "RestApi Node JS : Restapi OOP Javascript",
   "main": "restapi.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "pkg --compress GZip package.json"
   },
   "author": "Jean Riko Kurniawan Putra, S.Kom, M.Kom",
   "license": "ISC",
@@ -24,5 +24,15 @@
     "sha1": "^1.1.1",
     "utf8": "^3.0.0",
     "write-ini-file": "^3.0.2"
+  },
+  "bin": "./restapi.js",
+  "pkg": {
+    "scripts": "restapi.js",
+    "targets": [ 
+      "node14-linux-x64",
+      "node14-macos-x64",
+      "node14-win-x64"
+    ],
+    "outputPath": "build"
   }
 }
